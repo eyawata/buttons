@@ -1,0 +1,48 @@
+/* Your button CSS file */
+.btn-medium {
+  background-color: rgb(255, 255, 255, 0.4);
+  padding: 16px;
+  border-radius: 32px;
+  border: 0.1px solid rgba(0,0,1,0.2);
+  color: rgba(0,0,1,0.4);
+}
+
+.btn-medium:hover {
+  padding: 16px;
+  border-radius: 32px;
+  color: rgba(0, 0, 1, 0.7);
+  border: 0.1px solid rgba(0, 0, 1, 0.2);
+}
+
+.btn-treehouse {
+  background-color: rgb(94,209,130);
+  padding: 16px 24px 16px 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-treehouse:hover {
+  background-color: rgb(77, 172, 107);
+  padding: 16px 24px 16px 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-yours {
+  background-color: whitesmoke;
+  padding: 16px 24px 16px 24px;
+  font-weight: bold;
+  border: 3px solid rgb(41, 75, 41);
+  box-shadow: rgb(80, 98, 58) 4px 4px 0px 0px;
+  color:rgb(41, 75, 41);
+  transition: 0.5s;
+}
+
+.btn-yours:hover {
+  position: relative;
+  left: 2px;
+  top: 2px;
+  box-shadow: rgb(240, 242, 238) 0px 0px 0px 0px;
+}
